@@ -14,3 +14,9 @@ A fairly fast simple ray tracer built from scratch in C++. Currently it features
     - Brightness
   - Schlick's approximation for fast and accurate transmittance/reflectance
   - Saving files in .ppm format (version P3)
+---
+Things to do:
+  - Parallelize the trace calls (should be very easy)
+  - Add different type of objects (triangles, triangles and more triangles)
+  - Add an interface for multiple light sources that can emit different colors
+  - Gamma correction, fuzzy reflection and many other filters/effects
